@@ -13,7 +13,7 @@ The waveforming portion of the design was inspired by a forum post: https://www.
 
 As explained in the post, the design uses op-amps to generate a 1KHz sinewave. This sinewave is put across the DUT, connected in using the banana jacks. The resulting sinewave is then sent to an oscilloscope configured to X-Y mode, with J3 connected to the X channel and J4 connected to the Y channel. Different components produce different waveforms, providing information on how the components function in the circuit, helpful in troubleshooting potential failures. 
 
-More information can be found here on how the circuit is intended to work: [Octopus](nl1975may.pdf)
+More information can be found here on how the circuit is intended to work: [Octopus](article_octopus.pdf)
 
 ![Schematic_power](img_power.png)
 
