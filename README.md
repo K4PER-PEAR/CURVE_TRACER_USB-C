@@ -23,7 +23,7 @@ The power supply is an original design, based on the LM27762 switchmode supply t
 
 PWAs can be ordered using the supplied gerber files: [Gerbers](gerbers_revA0.zip)
 
-Components in the BOM can be sourced from Digikey, but most of the these components are readily available in kits from Amazon: [BOM](BOM_rA0.csv)
+Components in the BOM can be sourced from Digikey, but most of the these components are readily available in kits from Amazon: [BOM](BOM_rA01.csv)
 
 - D1 should not be installed. My german is a little rusty, I did not understand from the forum post that the shown diode was just intended for testing purposes. 
 - The design calls for SMA connectors at J3 and J4. This is not necessary for the frequencies present, I just happened to have SMA to BNC cables that I wanted to use with this design. If you would prefer to save the cost of SMA connectors, wires could be soldered here instead, requiring use of BNC to alligator or minigrabber cables to take a reading.
