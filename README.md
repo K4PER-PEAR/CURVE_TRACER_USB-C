@@ -9,7 +9,7 @@ Most curve tracer designs require using a transformer connected to line voltage.
 
 The waveforming portion of the design was inspired by a forum post: https://www.mikrocontroller.net/topic/528893
 
-![Schematic_waveforming](img_waveform.png)
+![Schematic_waveforming](img_waveform2.png)
 
 As explained in the post, the design uses op-amps to generate a 1KHz sinewave. This sinewave is put across the DUT, connected in using the banana jacks. The resulting sinewave is then sent to an oscilloscope configured to X-Y mode, with J3 connected to the X channel and J4 connected to the Y channel. Different components produce different waveforms, providing information on how the components function in the circuit, helpful in troubleshooting potential failures. 
 
